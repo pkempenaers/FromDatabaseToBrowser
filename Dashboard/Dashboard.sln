@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Dashboard(3)", ".", "{55C35
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50169"
-		Debug.AspNetCompiler.PhysicalPath = "E:\FromDatabaseToBrowser\Dashboard\"
+		Debug.AspNetCompiler.PhysicalPath = "..\Dashboard\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50169\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_50169"
-		Release.AspNetCompiler.PhysicalPath = "E:\FromDatabaseToBrowser\Dashboard\"
+		Release.AspNetCompiler.PhysicalPath = "..\Dashboard\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50169\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50169"
+		SlnRelativePath = "..\Dashboard\"
 	EndProjectSection
 EndProject
 Global
