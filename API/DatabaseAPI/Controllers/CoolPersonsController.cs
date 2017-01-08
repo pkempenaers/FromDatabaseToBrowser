@@ -10,9 +10,11 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
 using DatabaseAPI.Models;
+using System.Web.Http.Cors;
 
 namespace DatabaseAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class CoolPersonsController : ApiController
     {
         private FromDatabaseToBrowserEntities db = new FromDatabaseToBrowserEntities();
