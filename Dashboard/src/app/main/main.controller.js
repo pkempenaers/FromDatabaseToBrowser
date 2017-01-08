@@ -1,9 +1,18 @@
 export class MainController {
-  constructor () {
+	constructor (
+		personService	
+		, $log
+	) {
     'ngInject';
 
+    this.personService = personService;
+    this.$log = $log;
+    this.activate();
   }
 
-  $onInit() {
+	activate() {
+		this.personService.getAllPersons().then(persons => {
+			this.persons = persons;
+		})
   }
 }
