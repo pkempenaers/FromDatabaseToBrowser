@@ -11,7 +11,8 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr ng-repeat="person in main.persons">
+				<tr ng-repeat="person in main.persons"
+						ng-class="{'is-cool': person.isCool()}">
 					<td>{{person.id}}</td>
 					<td>{{person.firstName}}</td>
 					<td>{{person.lastName}}</td>
