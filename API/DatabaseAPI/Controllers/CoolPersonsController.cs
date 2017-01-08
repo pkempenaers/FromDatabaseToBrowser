@@ -23,6 +23,12 @@ namespace DatabaseAPI.Controllers
             return db.CoolPersons;
         }
 
+        [HttpGet, Route("CoolPersons/AverageCoolness")]
+        public decimal? GetAverageCoolness()
+        {
+            return db.CoolPersons.Average(cP => cP.Coolness);
+        }
+
         // GET: api/CoolPersons/5
         [ResponseType(typeof(CoolPerson))]
         public async Task<IHttpActionResult> GetCoolPerson(int id)
